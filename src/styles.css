@@ -1,80 +1,78 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: sans-serif;
+body {
+  font-family: sans-serif;
 }
 
-.card{
-    display: flex;
-    width: 500px;
-    justify-content: left;
-    align-items: center;
-    margin: 50px;
+.card {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 50px;
 }
 
-.vivo{
-    width: 10px;
-    height: 10px;
-    background-color: rgb(25, 245, 25);
-    border-radius: 50%;
+.vivo {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(25, 245, 25);
+  border-radius: 50%;
 }
 
-.muerto{
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    border-radius: 50%;
+.muerto {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
 }
 
-.image{
-    display: block;
-    border-radius: 50%;
-    width: 200px;
-    height: auto;
+.image {
+  display: block;
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
 }
 
-.data{
-    margin-left: 15px;
+.data {
+  margin-left: 15px;
 }
 
-.info{
-    display: flex;
-    align-items: center;
+.info {
+  display: flex;
+  align-items: center;
 }
 
 .info > p {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
-.container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding: 50px;
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 32px;
 }
 
-header{
-    display: flex;
-    width: 100%;
-    padding: 20px;
-    padding-bottom: 0;
-    justify-content: space-evenly;
+header {
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  padding-bottom: 0;
+  justify-content: space-evenly;
 }
 
-header > div > button{
-    border: 1px solid black;
-    padding: 10px 15px;
-    border-radius: 10px;
-    background-color: white;
-    color: black;
-    margin-left: 15px;
+header > div > button {
+  border: 1px solid black;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  margin-left: 15px;
 }
 
-header > div > button:active{
-    background-color: black;
-    color: white;
+header > div > button:active {
+  background-color: black;
+  color: white;
 }

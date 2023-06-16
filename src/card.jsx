@@ -10,13 +10,14 @@ export const Card = ({ img, name, status, species }) => {
           <img src={img} alt={alt} className="image" />
         </div>
         <div className="data">
-        <p><strong>{species}</strong></p>
+          <p>
+            <strong>{species}</strong>
+          </p>
           <h2>{name}</h2>
           <div className="info">
             <div className={estado}></div>
             <p>{status}</p>
           </div>
-          
         </div>
       </div>
     </>

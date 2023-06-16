@@ -10,14 +10,14 @@ export const Btn = ({ page, setPage }) => {
             setPage(back);
           }}
         >
-          Back page
+          Previous
         </button>
         <button
           onClick={() => {
             setPage(next);
           }}
         >
-          Next page
+          Next
         </button>
       </div>
     </header>
